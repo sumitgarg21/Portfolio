@@ -7,7 +7,6 @@ Software developer portfolio website of Sumit Garg.
 - About
 - Experience
 - Projects
-- Publications
-- Blogs
+- Coding Profiles
 - Education
 - Contact

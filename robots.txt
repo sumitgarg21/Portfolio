@@ -6,4 +6,3 @@ Disallow: /images/home-mac.png
 Disallow: /images/home-phone.png
 Disallow: /images/icon/
 
-Sitemap: https://pranaykothari.com/sitemap.xml
