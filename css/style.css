@@ -501,7 +501,7 @@ body.black .top-nav-sec.fixed-nav .top-nav {
 .landing-fade-up-box.show .landing-fade-up-item {
     visibility: visible;
     opacity: 1;
-    color: #ffffff;
+    color: black;
     transform: translate(0, 3);
 }
 
@@ -526,7 +526,7 @@ body.black .top-nav-sec.fixed-nav .top-nav {
     height: 80%;
     background-color: #f9f0fe;
     /* background: linear-gradient(180deg, #A177B4 -49.22%, #F9F0FE 21.43%); */
-    background: url("../images/display.jpg");
+    background: url("../images/video.mp4");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -2595,4 +2595,22 @@ body.black .contact-section h6 a {
     line-height: 26px;
     padding: 25px 110px 50px 110px;
     text-align: center;
+}
+.video-back{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+.video-back{
+    width: 100%;
+    height: auto;
+}
+}
+@media (max-aspect-ratio: 16/9){
+.video-back{
+    width: auto;
+    height: 100%;
+}
 }
