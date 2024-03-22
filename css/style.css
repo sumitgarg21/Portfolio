@@ -579,6 +579,7 @@ body.black .top-nav-sec.fixed-nav .top-nav {
 
 .landing-section .landing-left-text h1 .platinum-color {
     color: #FEE2BE;
+    -webkit-text-stroke: 1px #000;
 }
 
 .landing-section .landing-left-text p {
